@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+}
+main {
+  background-color: white;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+}
+.stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.empty-message {
+  text-align: center;
+  color: grey;
+}
+input[type=text] {
+  width: 80%;
+  display: block;
+  margin: 20px auto;
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 3px;
+}

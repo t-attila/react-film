@@ -1,0 +1,29 @@
+.filmItem {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+  padding: 10px 20px;
+}
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.year {
+  color: #888;
+  font-style: italic;
+  text-indent: 10px;
+}
+.fav {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1.3em;
+  color: red;
+  cursor: pointer;
+}
